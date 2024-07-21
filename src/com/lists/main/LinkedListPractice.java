@@ -58,7 +58,8 @@ public class LinkedListPractice {
 		
 		// Showing all elements of the list
 		System.out.println("All elements after sorting " + list.toString());
-		
+
+		// Creating Comparator for sorting with word length
 		Comparator<String> comparator = new Comparator<String>(){
 			
 			@Override
